@@ -15,6 +15,9 @@ website/node_modules/
 website/public/*.dmg
 !website/public/AuraCalc-latest.dmg
 
+# 独立仓库：Homebrew tap
+homebrew-tap/
+
 # 日志
 *.log
 npm-debug.log*
