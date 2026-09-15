@@ -29,6 +29,16 @@
 - DMG 安装包：[`AuraCalc-latest.dmg`](website/public/AuraCalc-latest.dmg)（2.2MB，arm64）
 - [蓝奏云](https://wwbvs.lanzouq.com/iV51842eq2od)
 
+## Homebrew 安装
+
+```bash
+brew trust --tap icret/tap    # Homebrew 7.x 需先信任
+brew tap icret/tap
+brew install --cask auracalc
+```
+
+更新：`brew upgrade --cask auracalc` | 卸载：`brew uninstall --cask --zap auracalc`
+
 ## 安全校验
 
 - [VirScan](https://www.virscan.org/report/fe56e9e6e81873d6215cb55edac9aa714ffb5f2169bf14c944b956971af594e9)

@@ -29,6 +29,16 @@ The icon and name were picked casually — the icon is admittedly ugly. If anyon
 - DMG installer: [`AuraCalc-latest.dmg`](website/public/AuraCalc-latest.dmg) (2.2MB, arm64)
 - [Lanzou Cloud mirror](https://wwbvs.lanzouq.com/iV51842eq2od)
 
+## Homebrew
+
+```bash
+brew trust --tap icret/tap    # Homebrew 7.x+
+brew tap icret/tap
+brew install --cask auracalc
+```
+
+Update: `brew upgrade --cask auracalc` | Uninstall: `brew uninstall --cask --zap auracalc`
+
 ## Security Verification
 
 - [VirScan](https://www.virscan.org/report/fe56e9e6e81873d6215cb55edac9aa714ffb5f2169bf14c944b956971af594e9)
